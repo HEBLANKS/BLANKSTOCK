@@ -1,0 +1,19 @@
+{
+  "name": "blankstock",
+  "version": "1.0.0",
+  "description": "Client blank-garment stock and Shopify order tracking for print-on-demand fulfilment",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node --no-warnings src/server.js",
+    "test": "node --no-warnings test/e2e.js && node --no-warnings test/shopify-mock.js",
+    "demo-data": "node --no-warnings scripts/seed-demo.js"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=22.13"
+  }
+}
